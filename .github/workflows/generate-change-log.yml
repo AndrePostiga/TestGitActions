@@ -2,7 +2,7 @@ name: generate-change-log
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: 
   push:
-    branch:
+    branches:
       - 'main'
 
 jobs:
